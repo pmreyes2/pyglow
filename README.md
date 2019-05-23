@@ -34,11 +34,10 @@ pyglow also provides access to the the following geophysical indices:
 
 `pyglow` requires the following packages for installation:
 
-1. `gfortran` (`$ sudo apt-get install gfortran`)
-2. `unzip` (`$ sudo apt-get install unzip`)
-3. `rsync` (`$ sudo apt-get install rsync`)
-4. `f2py` (`$ pip install numpy --upgrade`)
-5. Python packages listed in `requirements.txt` (`$ pip install -r requirements.txt`)
+1. `gfortran`, `unzip`, `rsync`, `python3-dev` (`$ sudo apt-get install gfortran unzip rsync python3-dev`)
+2. `f2py` (`$ pip install numpy --upgrade`)
+3. Python packages listed in `requirements.txt` (`$ pip install -r requirements.txt`)
+4. The environment variable LANG needs to be set properly otherwise f2py will break with UnicodeDecodeError.
 
 # Installation
 
